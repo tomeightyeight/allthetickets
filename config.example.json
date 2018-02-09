@@ -1,6 +1,6 @@
 {
-  "URI": "https://www.residentadvisor.net/events/1049101",
+  "URI": "https://www.residentadvisor.net/events/1037358",
   "SMS_KEY": "",
-  "PHONE_NUMBER": "",
-  "INTERVAL_MS": 15000
+  "PHONE_NUMBERS": [],
+  "INTERVAL_MS": 30000
 }
