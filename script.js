@@ -24,7 +24,7 @@ const sendText = (number) => {
     })  
 }
 
-const success = async () => {
+const success = () => {
   console.log('BUY DI TIKITZ!!!')
 
   PHONE_NUMBERS.forEach(number => {
@@ -32,7 +32,7 @@ const success = async () => {
   })
 
   setTimeout(() => {
-    process.exit()
+    process.kill(process.pid) // no more Forever
   }, 5000)
 }
 
